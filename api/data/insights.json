@@ -1,61 +1,146 @@
 {
-    "insights" : {
-        "vendors" : [
+    "insights": {
+        "specific_cat": [
             {
-                "vendor" : "Panda Express",
-                "percent" : 40
-            }, 
-            {
-                "vendor" : "McDonalds",
-                "percent" : 20
-            }, 
-            {
-                "vendor" : "Togos",
-                "percent" : 10
-            }, 
-            {
-                "vendor" : "Chipotle",
-                "percent" : 30
-            }
-        ],
-        "categories" : [
-            {
-                "category" : "Restuarants",
-                "percent" : 50
-            },
-            {
-                "category" : "Groceries",
-                "percent" : 30
-            },
-            {
-                "category" : "Technology",
-                "percent" : 20
-            }
-        ],
-        "subscriptions" : {
-            "monthly" : 
-            [
-                {
-                    "service" : "Netflix",
-                    "cost" : 10
-                },
-                {
-                    "service" : "Hulu",
-                    "cost" : 5
-                },
-                {
-                    "service" : "Apple Music",
-                    "cost" : 5
+                "category": "GROCERY", 
+                "orderItems": {
+                    "Eye Care": 7.82, 
+                    "Ear Care": 5.67
                 }
-            ],
-            "yearly" :
-            [
+            }, 
+            {
+                "category": "ENTERTAINMENT", 
+                "orderItems": {
+                    "John Wick 3 IMAX ": 21.38
+                }
+            }, 
+            {
+                "category": "UTILITIES", 
+                "orderItems": {}
+            }, 
+            {
+                "category": "DINING", 
+                "orderItems": {
+                    "Fried Potato": 8.97, 
+                    "Chicken Wings": 6.99
+                }
+            }, 
+            {
+                "category": "RENT", 
+                "orderItems": {}
+            }, 
+            {
+                "category": "ELECTRONIC", 
+                "orderItems": {}
+            }
+        ], 
+        "vendors": [
+            {
+                "vendor": "Cafe HotDogs", 
+                "nBills": 1
+            }, 
+            {
+                "vendor": "Mac Donalds", 
+                "nBills": 1
+            }, 
+            {
+                "vendor": "Amazon Store", 
+                "nBills": 1
+            }, 
+            {
+                "vendor": "KFC", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Regal Theatre", 
+                "nBills": 1
+            }, 
+            {
+                "vendor": "CVS Pharmarcy", 
+                "nBills": 1
+            }, 
+            {
+                "vendor": "Giant Market", 
+                "nBills": 1
+            }
+        ], 
+        "dates": [
+            {
+                "cost": 0, 
+                "day": "Monday"
+            }, 
+            {
+                "cost": 0, 
+                "day": "Tuesday"
+            }, 
+            {
+                "cost": 0, 
+                "day": "Wednesday"
+            }, 
+            {
+                "cost": 0, 
+                "day": "Thursday"
+            }, 
+            {
+                "cost": 9.98, 
+                "day": "Friday"
+            }, 
+            {
+                "cost": 0, 
+                "day": "Saturday"
+            }, 
+            {
+                "cost": 5.98, 
+                "day": "Sunday"
+            }
+        ], 
+        "categories": [
+            {
+                "cost": 13.49, 
+                "vendor": "GROCERY"
+            }, 
+            {
+                "cost": 21.38, 
+                "vendor": "ENTERTAINMENT"
+            }, 
+            {
+                "cost": 0, 
+                "vendor": "UTILITIES"
+            }, 
+            {
+                "cost": 15.96, 
+                "vendor": "DINING"
+            }, 
+            {
+                "cost": 0, 
+                "vendor": "RENT"
+            }, 
+            {
+                "cost": 0, 
+                "vendor": "ELECTRONIC"
+            }
+        ], 
+        "subscriptions": {
+            "monthly": [
                 {
-                    "service" : "Xbox Live Gold Membership",
-                    "cost" : 50
+                    "cost": 10, 
+                    "service": "Netflix"
+                }, 
+                {
+                    "cost": 5, 
+                    "service": "Hulu"
+                }, 
+                {
+                    "cost": 5, 
+                    "service": "Apple Music"
+                }
+            ], 
+            "yearly": [
+                {
+                    "cost": 50, 
+                    "service": "Xbox Live Gold Membership"
                 }
             ]
-
         }
     }
 }
