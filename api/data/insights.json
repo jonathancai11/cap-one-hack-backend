@@ -1,0 +1,61 @@
+{
+    "insights" : {
+        "vendors" : [
+            {
+                "vendor" : "Panda Express",
+                "percent" : 40
+            }, 
+            {
+                "vendor" : "McDonalds",
+                "percent" : 20
+            }, 
+            {
+                "vendor" : "Togos",
+                "percent" : 10
+            }, 
+            {
+                "vendor" : "Chipotle",
+                "percent" : 30
+            }
+        ],
+        "categories" : [
+            {
+                "category" : "Restuarants",
+                "percent" : 50
+            },
+            {
+                "category" : "Groceries",
+                "percent" : 30
+            },
+            {
+                "category" : "Technology",
+                "percent" : 20
+            }
+        ],
+        "subscriptions" : {
+            "monthly" : 
+            [
+                {
+                    "service" : "Netflix",
+                    "cost" : 10
+                },
+                {
+                    "service" : "Hulu",
+                    "cost" : 5
+                },
+                {
+                    "service" : "Apple Music",
+                    "cost" : 5
+                }
+            ],
+            "yearly" :
+            [
+                {
+                    "service" : "Xbox Live Gold Membership",
+                    "cost" : 50
+                }
+            ]
+
+        }
+    }
+}

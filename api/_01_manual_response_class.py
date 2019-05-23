@@ -4,20 +4,18 @@ from .utils import JSON_MIME_TYPE, search_book
 
 app = Flask(__name__)
 
+
 img_resp = {
     "Received image": "Goood stuff man",
 }
-
 hist_resp = {
     "Here are all of the history": "Goood stuff man",
 }
 
-
-insights_resp = {
-    "Here are all of the insights": "Goood stuff man",
-}
-
-
+with open('api/data/insights.json') as json_file:  
+    insights_json = json.load(json_file)
+    
+insights_resp = insights_json
 
 @app.route('/api/img')
 def img_upload():
