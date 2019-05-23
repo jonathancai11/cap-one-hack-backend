@@ -1,0 +1,51 @@
+[
+    {
+        "date": "05/16/2019", 
+        "items": [
+            {
+                "item": "John Wick 3 IMAX ", 
+                "cost": 21.38, 
+                "quantity": 1
+            }
+        ], 
+        "totalCost": 21.38, 
+        "vendor": "Demo 1", 
+        "time": "20:03"
+    }, 
+    {
+        "date": "05/17/2019", 
+        "items": [
+            {
+                "item": "Fried Potato", 
+                "cost": 2.99, 
+                "quantity": 1
+            }, 
+            {
+                "item": "Chicken Wings", 
+                "cost": 6.99, 
+                "quantity": 1
+            }
+        ], 
+        "totalCost": 9.98, 
+        "vendor": "Demo 2", 
+        "time": "12:33"
+    }, 
+    {
+        "date": "05/18/2019", 
+        "items": [
+            {
+                "item": "Small Hotdog", 
+                "cost": 2.99, 
+                "quantity": 1
+            }, 
+            {
+                "item": "Pepsi", 
+                "cost": 1.99, 
+                "quantity": 1
+            }
+        ], 
+        "totalCost": 4.98, 
+        "vendor": "Demo 3", 
+        "time": "15:43"
+    }
+]
