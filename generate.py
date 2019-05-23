@@ -1,6 +1,5 @@
 import datetime
 import json
-
 def genItems(items, price, quantity):
     aList = list()
     totalCost = 0
@@ -23,6 +22,9 @@ def genTrans(vendor, year, month, day, hour, minute, items, price, quantity):
     aList["items"], aList["totalCost"] = genItems(items, price, quantity)
     return aList
 
+
+
+
 aList = list()
 aList.append(genTrans('Regal Theatre', 2019, 5, 16, 20, 3,  ['John Wick 3 IMAX '], [21.38], [1]))
 aList.append(genTrans('KFC', 2019, 5, 17, 12, 33,  ['Mashed Potatos', 'Chicken Wings'], [2.99, 6.99], [1, 1]))
@@ -39,6 +41,32 @@ aList.append(genTrans('Comcast', 2019, 5, 24, 23, 18,  ['Internet'], [19.99], [1
 aList.append(genTrans('Farm Fresh', 2019, 5, 13, 20, 26,  ['Bread', 'Chips', 'Salsa'], [3.99, 2.99, 9.99], [2, 5, 1]))
 aList.append(genTrans('Dominion', 2019, 5, 25, 20, 12,  ['Power'], [13.53], [1]))
 aList.append(genTrans('Rent', 2019, 5, 29, 17, 12,  ['Rent'], [550.00], [1]))
+
+
+
+aList.append(genTrans('Regal Theatre', 2019, 6, 2, 12, 50,  ['Avengers Endgame'], [10.00], [1]))
+aList.append(genTrans('Panda Express', 2019, 6, 2, 15, 12,  ['Beef and Broccoli', 'Orange Chicken'], [6.99, 6.99], [1, 1]))
+aList.append(genTrans('Chick-Fil-A', 2019, 6, 4, 7, 14,  ['Waffle Fries', 'Chicken Sandwich'], [3.99, 4.99], [2, 1]))
+aList.append(genTrans('Walmart', 2019, 6, 6, 2, 24,  ['Pears', 'Instant Ramen', 'Twix'], [0.60, 0.10, 0.99], [10, 20, 5]))
+aList.append(genTrans('Amazon', 2019, 6, 8, 19, 21,  ['AirPods'], [129.99], [1]))
+aList.append(genTrans('Amazon', 2019, 6, 12, 1, 19,  ['iPhone Chargers'], [19.99], [1]))
+aList.append(genTrans('Panda Express', 2019, 6, 15,19, 56,  ['Beef and Broccoli'], [6.99], [2]))
+aList.append(genTrans('CVS Pharmarcy', 2019, 6, 18, 22, 14,  ['Facewash', 'Shampoo'], [4.99, 7.99], [1, 1]))
+aList.append(genTrans('McDonalds', 2019, 6, 19, 4, 19, ['Happy Meal, Large Fries, Pepsi'], [5.0, 2.0 , 1.5], [3, 2, 1]))
+aList.append(genTrans('Richmond Gas Works', 2019, 6, 19, 3, 45,  ['Gas'], [12.55], [1]))
+aList.append(genTrans('Richmond Water', 2019, 6, 22, 22, 23,  ['Water'], [25.32], [1]))
+aList.append(genTrans('Comcast', 2019, 6, 23, 1, 12,  ['Internet'], [19.99], [1]))
+aList.append(genTrans('Dominion', 2019, 6, 25, 13, 18,  ['Power'], [18.23], [1]))
+aList.append(genTrans('Rent', 2019, 6, 26, 16, 40,  ['Rent'], [550.00], [1]))
+
+
+
+
+
+
+
+
+
 
 
 with open('history.json', 'w') as fb:
