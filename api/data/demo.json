@@ -4,8 +4,8 @@
         "items": [
             {
                 "item": "Burger", 
-                "cost": 5.99, 
-                "quantity": 1
+                "cost": "5.99", 
+                "quantity": "1"
             }
         ], 
         "totalCost": 5.99, 
@@ -17,8 +17,8 @@
         "items": [
             {
                 "item": "Coke", 
-                "cost": 2.99, 
-                "quantity": 1
+                "cost": "2.99", 
+                "quantity": "1"
             }
         ], 
         "totalCost": 2.99, 
@@ -30,13 +30,13 @@
         "items": [
             {
                 "item": "Chips", 
-                "cost": 10.0, 
-                "quantity": 1
+                "cost": "10.0", 
+                "quantity": "1"
             }, 
             {
                 "item": "Cookies", 
-                "cost": 5.0, 
-                "quantity": 2
+                "cost": "5.0", 
+                "quantity": "2"
             }
         ], 
         "totalCost": 20.0, 
