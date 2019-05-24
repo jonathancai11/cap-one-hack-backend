@@ -1,8 +1,8 @@
 {
     "transaction": {
-        "May": [
+        "Apr": [
             {
-                "date": "05/16/2019", 
+                "date": "04/16/2019", 
                 "items": [
                     {
                         "item": "John Wick 3 IMAX ", 
@@ -15,7 +15,7 @@
                 "time": "20:03"
             }, 
             {
-                "date": "05/17/2019", 
+                "date": "04/17/2019", 
                 "items": [
                     {
                         "item": "Mashed Potatos", 
@@ -33,7 +33,7 @@
                 "time": "12:33"
             }, 
             {
-                "date": "05/18/2019", 
+                "date": "04/18/2019", 
                 "items": [
                     {
                         "item": "Chilidog", 
@@ -51,7 +51,7 @@
                 "time": "15:43"
             }, 
             {
-                "date": "05/18/2019", 
+                "date": "04/18/2019", 
                 "items": [
                     {
                         "item": "Apples", 
@@ -74,7 +74,7 @@
                 "time": "20:26"
             }, 
             {
-                "date": "05/19/2019", 
+                "date": "04/19/2019", 
                 "items": [
                     {
                         "item": "Kindle Fire", 
@@ -87,7 +87,7 @@
                 "time": "12:37"
             }, 
             {
-                "date": "05/19/2019", 
+                "date": "04/19/2019", 
                 "items": [
                     {
                         "item": "Nintendo Switch", 
@@ -100,7 +100,7 @@
                 "time": "12:37"
             }, 
             {
-                "date": "05/19/2019", 
+                "date": "04/19/2019", 
                 "items": [
                     {
                         "item": "French Fries", 
@@ -113,7 +113,7 @@
                 "time": "20:48"
             }, 
             {
-                "date": "05/20/2019", 
+                "date": "04/20/2019", 
                 "items": [
                     {
                         "item": "Q-Tips", 
@@ -131,30 +131,20 @@
                 "time": "19:23"
             }, 
             {
-                "date": "05/21/2019", 
+                "date": "04/21/2019", 
                 "items": [
                     {
-                        "item": "Double Cheeseburger", 
-                        "cost": "2.0", 
+                        "item": "Double Cheeseburger, Snack Wrap, Pepsi", 
+                        "cost": "1.99", 
                         "quantity": "2"
-                    }, 
-                    {
-                        "item": "Snack Wrap", 
-                        "cost": "3.0", 
-                        "quantity": "3"
-                    }, 
-                    {
-                        "item": "Pepsi", 
-                        "cost": "1.5", 
-                        "quantity": "1"
                     }
                 ], 
-                "totalCost": 14.5, 
+                "totalCost": 3.98, 
                 "vendor": "McDonalds", 
                 "time": "12:00"
             }, 
             {
-                "date": "05/26/2019", 
+                "date": "04/26/2019", 
                 "items": [
                     {
                         "item": "Gas", 
@@ -167,7 +157,7 @@
                 "time": "20:48"
             }, 
             {
-                "date": "05/28/2019", 
+                "date": "04/28/2019", 
                 "items": [
                     {
                         "item": "Water", 
@@ -180,7 +170,7 @@
                 "time": "18:34"
             }, 
             {
-                "date": "05/24/2019", 
+                "date": "04/28/2019", 
                 "items": [
                     {
                         "item": "Internet", 
@@ -193,7 +183,7 @@
                 "time": "23:18"
             }, 
             {
-                "date": "05/13/2019", 
+                "date": "04/29/2019", 
                 "items": [
                     {
                         "item": "Bread", 
@@ -216,7 +206,7 @@
                 "time": "20:26"
             }, 
             {
-                "date": "05/25/2019", 
+                "date": "04/29/2019", 
                 "items": [
                     {
                         "item": "Power", 
@@ -229,7 +219,7 @@
                 "time": "20:12"
             }, 
             {
-                "date": "05/29/2019", 
+                "date": "04/29/2019", 
                 "items": [
                     {
                         "item": "Rent", 
@@ -242,9 +232,9 @@
                 "time": "17:12"
             }
         ], 
-        "Jun": [
+        "May": [
             {
-                "date": "06/02/2019", 
+                "date": "05/02/2019", 
                 "items": [
                     {
                         "item": "Avengers Endgame", 
@@ -257,7 +247,7 @@
                 "time": "12:50"
             }, 
             {
-                "date": "06/02/2019", 
+                "date": "05/02/2019", 
                 "items": [
                     {
                         "item": "Beef and Broccoli", 
@@ -275,7 +265,7 @@
                 "time": "15:12"
             }, 
             {
-                "date": "06/04/2019", 
+                "date": "05/04/2019", 
                 "items": [
                     {
                         "item": "Waffle Fries", 
@@ -293,7 +283,7 @@
                 "time": "07:14"
             }, 
             {
-                "date": "06/06/2019", 
+                "date": "05/06/2019", 
                 "items": [
                     {
                         "item": "Pears", 
@@ -316,7 +306,7 @@
                 "time": "02:24"
             }, 
             {
-                "date": "06/08/2019", 
+                "date": "05/08/2019", 
                 "items": [
                     {
                         "item": "AirPods", 
@@ -329,7 +319,7 @@
                 "time": "19:21"
             }, 
             {
-                "date": "06/12/2019", 
+                "date": "05/12/2019", 
                 "items": [
                     {
                         "item": "iPhone Chargers", 
@@ -342,7 +332,7 @@
                 "time": "01:19"
             }, 
             {
-                "date": "06/15/2019", 
+                "date": "05/15/2019", 
                 "items": [
                     {
                         "item": "Beef and Broccoli", 
@@ -355,7 +345,7 @@
                 "time": "19:56"
             }, 
             {
-                "date": "06/18/2019", 
+                "date": "05/18/2019", 
                 "items": [
                     {
                         "item": "Facewash", 
@@ -373,30 +363,20 @@
                 "time": "22:14"
             }, 
             {
-                "date": "06/19/2019", 
+                "date": "05/19/2019", 
                 "items": [
                     {
-                        "item": "Happy Meal", 
+                        "item": "Happy Meal, Large Fries, Pepsi", 
                         "cost": "5.0", 
                         "quantity": "3"
-                    }, 
-                    {
-                        "item": "Large Fries", 
-                        "cost": "2.0", 
-                        "quantity": "2"
-                    }, 
-                    {
-                        "item": "Pepsi", 
-                        "cost": "1.5", 
-                        "quantity": "1"
                     }
                 ], 
-                "totalCost": 20.5, 
+                "totalCost": 15.0, 
                 "vendor": "McDonalds", 
                 "time": "04:19"
             }, 
             {
-                "date": "06/19/2019", 
+                "date": "05/19/2019", 
                 "items": [
                     {
                         "item": "Gas", 
@@ -409,7 +389,7 @@
                 "time": "03:45"
             }, 
             {
-                "date": "06/22/2019", 
+                "date": "05/22/2019", 
                 "items": [
                     {
                         "item": "Water", 
@@ -422,7 +402,7 @@
                 "time": "22:23"
             }, 
             {
-                "date": "06/23/2019", 
+                "date": "05/23/2019", 
                 "items": [
                     {
                         "item": "Internet", 
@@ -435,7 +415,7 @@
                 "time": "01:12"
             }, 
             {
-                "date": "06/25/2019", 
+                "date": "05/25/2019", 
                 "items": [
                     {
                         "item": "Power", 
@@ -448,7 +428,7 @@
                 "time": "13:18"
             }, 
             {
-                "date": "06/26/2019", 
+                "date": "05/26/2019", 
                 "items": [
                     {
                         "item": "Rent", 
@@ -458,6 +438,50 @@
                 ], 
                 "totalCost": 550.0, 
                 "vendor": "Rent", 
+                "time": "16:40"
+            }, 
+            {
+                "date": "05/23/2019", 
+                "items": [
+                    {
+                        "item": "Burger", 
+                        "cost": "5.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 5.99, 
+                "vendor": "Cookout", 
+                "time": "01:12"
+            }, 
+            {
+                "date": "05/25/2019", 
+                "items": [
+                    {
+                        "item": "Coke", 
+                        "cost": "2.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 2.99, 
+                "vendor": "StakeShake", 
+                "time": "13:18"
+            }, 
+            {
+                "date": "05/26/2019", 
+                "items": [
+                    {
+                        "item": "Chips", 
+                        "cost": "10.0", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Cookies", 
+                        "cost": "5.0", 
+                        "quantity": "2"
+                    }
+                ], 
+                "totalCost": 20.0, 
+                "vendor": "Walmart", 
                 "time": "16:40"
             }
         ]

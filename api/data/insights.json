@@ -201,21 +201,21 @@
         "subscriptions": {
             "monthly": [
                 {
-                    "cost": "10", 
+                    "cost": "10.00", 
                     "service": "Netflix"
                 }, 
                 {
-                    "cost": "5", 
+                    "cost": "5.00", 
                     "service": "Hulu"
                 }, 
                 {
-                    "cost": "5", 
+                    "cost": "5.00", 
                     "service": "Apple Music"
                 }
             ], 
             "yearly": [
                 {
-                    "cost": "50", 
+                    "cost": "50.00", 
                     "service": "Xbox Live Gold Membership"
                 }
             ]

@@ -40,7 +40,7 @@ def insight_dates(json_file):
     for transaction in data:
         if transaction["vendor"] in vendor_cat["DINING"]:
             day = datetime.strptime(transaction["date"],"%m/%d/%Y").weekday()
-            dateCost[day] += transaction["totalCost"]
+            dateCost[day] += round(transaction["totalCost"],2)
 
     aList = list()
     for index, dates in enumerate(weekday):
@@ -61,7 +61,7 @@ def insight_categories(json_file):
     for transaction in data:
         for vendor in vendor_cat:
             if transaction["vendor"] in vendor_cat[vendor]:
-                cost_cat[vendor] += transaction["totalCost"]
+                cost_cat[vendor] += round(transaction["totalCost"],2)
 
     aList = list()
     for category, cost in cost_cat.items():
@@ -104,9 +104,9 @@ def insight_specific_categories(json_file):
             if transaction["vendor"] in vendor_cat[vendor]:
                 for item in transaction["items"]:
                     if item["item"] not in specific_cat[vendor]:
-                        specific_cat[vendor][item["item"]] = float(item["cost"]) * int(item["quantity"])
+                        specific_cat[vendor][item["item"]] = round(float(item["cost"]) * int(item["quantity"]), 2)
                     else:
-                        specific_cat[vendor][item["item"]] += float(item["cost"]) * int(item["quantity"])
+                        specific_cat[vendor][item["item"]] += round(float(item["cost"]) * int(item["quantity"]), 2)
 
     for category in specific_cat:
         c = Counter(specific_cat[category])
@@ -133,22 +133,22 @@ def make_insight_json(json_file):
             [
                 {
                     "service" : "Netflix",
-                    "cost" : '10'
+                    "cost" : '10.00'
                 },
                 {
                     "service" : "Hulu",
-                    "cost" : '5'
+                    "cost" : '5.00'
                 },
                 {
                     "service" : "Apple Music",
-                    "cost" : '5'
+                    "cost" : '5.00'
                 }
             ],
         "yearly" :
             [
                 {
                     "service" : "Xbox Live Gold Membership",
-                    "cost" : '50'
+                    "cost" : '50.00'
                 }
             ]
     }

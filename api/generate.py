@@ -6,10 +6,10 @@ def genItems(items, price, quantity):
     for i in range(len(items)):
         aList.append({
             "item": items[i],
-            "cost": str(price[i]),
+            "cost": str(round(price[i], 2)),
             "quantity": str(quantity[i])
         })
-        totalCost += price[i]*quantity[i]
+        totalCost += round(price[i]*quantity[i], 2)
 
     return aList, totalCost
 
