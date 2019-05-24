@@ -156,3 +156,20 @@ def make_insight_json(json_file):
         "insights": aDict
     }
 
+def make_month(json_file):
+    with open(json_file) as readJSON:
+        data = json.load(readJSON, object_hook= _byteify)["transactions"]
+    
+    aMonth = {}
+
+    month_str = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug','Sep','Oct','Nov','Dec']
+
+    for transaction in data:
+        month = month_str[datetime.strptime(transaction["date"],"%m/%d/%Y").month - 1]
+        if month in aMonth:
+            aMonth[month].append(transaction)
+        else:
+            aMonth[month] = [transaction]
+    return {
+        "transaction": aMonth
+    }

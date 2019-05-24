@@ -4,9 +4,10 @@
             {
                 "category": "GROCERY", 
                 "orderItems": {
+                    "Chips": "24.95", 
                     "Oranges": "18.75", 
-                    "Chips": "14.95", 
                     "Bananas": "11.2", 
+                    "Cookies": "10.0", 
                     "Salsa": "9.99", 
                     "Shampoo": "7.99", 
                     "Bread": "7.98", 
@@ -46,7 +47,7 @@
                     "French Fries": "5.98", 
                     "Chilidog": "4.99", 
                     "Chicken Sandwich": "4.99", 
-                    "Double Cheeseburger, Snack Wrap, Pepsi": "4.0", 
+                    "Double Cheeseburger, Snack Wrap, Pepsi": "3.98", 
                     "Mashed Potatos": "2.99", 
                     "Pepsi": "1.99"
                 }
@@ -70,11 +71,15 @@
         "vendors": [
             {
                 "vendor": "Walmart", 
-                "nBills": "1"
+                "nBills": "2"
             }, 
             {
                 "vendor": "Richmond Gas Works", 
                 "nBills": "2"
+            }, 
+            {
+                "vendor": "StakeShake", 
+                "nBills": "1"
             }, 
             {
                 "vendor": "Dominion", 
@@ -121,6 +126,10 @@
                 "nBills": "2"
             }, 
             {
+                "vendor": "Cookout", 
+                "nBills": "1"
+            }, 
+            {
                 "vendor": "CVS Pharmarcy", 
                 "nBills": "2"
             }, 
@@ -139,33 +148,33 @@
                 "day": "Monday"
             }, 
             {
-                "cost": "16.97", 
+                "cost": "0", 
                 "day": "Tuesday"
             }, 
             {
-                "cost": "15.0", 
+                "cost": "23.96", 
                 "day": "Wednesday"
             }, 
             {
-                "cost": "0", 
+                "cost": "20.96", 
                 "day": "Thursday"
             }, 
             {
-                "cost": "9.98", 
+                "cost": "5.98", 
                 "day": "Friday"
             }, 
             {
-                "cost": "20.96", 
+                "cost": "12.97", 
                 "day": "Saturday"
             }, 
             {
-                "cost": "19.96", 
+                "cost": "18.98", 
                 "day": "Sunday"
             }
         ], 
         "categories": [
             {
-                "cost": "106.79", 
+                "cost": "126.79", 
                 "vendor": "GROCERY"
             }, 
             {
@@ -177,7 +186,7 @@
                 "vendor": "UTILITIES"
             }, 
             {
-                "cost": "82.87", 
+                "cost": "82.85", 
                 "vendor": "DINING"
             }, 
             {

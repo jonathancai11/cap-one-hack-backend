@@ -1,7 +1,7 @@
 import json
 from flask import Flask, Response, abort
 from .utils import JSON_MIME_TYPE, search_book
-from .insight import make_insight_json
+from .insight import make_insight_json, make_month
 from .generate import makeData, makeDemo
 count = 0
 
@@ -14,7 +14,11 @@ img_resp = {
 @app.route('/init')
 def init():
     aList = makeData()
-    
+    monthTrans = make_month('api/data/history.json')
+
+    with open('api/data/month.json', 'w') as json_file:
+        json.dump(monthTrans,json_file, indent= 4)
+
     with open('api/data/history.json', 'w') as json_file:
         json.dump(aList,json_file, indent= 4)
 
@@ -39,6 +43,11 @@ def img_upload():
     
     history_json["transactions"].insert(0, demo_json[count])
     
+    monthTrans = make_month('api/data/history.json')
+
+    with open('api/data/month.json', 'w') as json_file:
+        json.dump(monthTrans,json_file, indent= 4)
+
     with open('api/data/history.json', 'w') as fb:
         json.dump(history_json, fb, indent= 4)
     
@@ -55,6 +64,15 @@ def history():
     return response, 200, {'Content-Type': JSON_MIME_TYPE}
     '''
     with open('api/data/history.json') as json_file_hist:
+        history_json = json.load(json_file_hist)
+    
+    response = Response(
+        json.dumps(history_json), status=200, mimetype=JSON_MIME_TYPE)
+    return response
+
+@app.route('/api/month')
+def month():
+    with open('api/data/month.json') as json_file_hist:
         history_json = json.load(json_file_hist)
     
     response = Response(
