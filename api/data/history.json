@@ -1,6 +1,42 @@
 {
     "transactions": [
         {
+            "date": "05/19/2019", 
+            "items": [
+                {
+                    "item": "Shake", 
+                    "cost": "4.85", 
+                    "quantity": "1"
+                }, 
+                {
+                    "item": "Seasonal", 
+                    "cost": "1.00", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 7.59, 
+            "vendor": "urban Farmhouse...", 
+            "time": "4:10"
+        }, 
+        {
+            "date": "05/19/2019", 
+            "items": [
+                {
+                    "item": "QUESAD CMB SD", 
+                    "cost": "12.49", 
+                    "quantity": "1"
+                }, 
+                {
+                    "item": "SODA BT", 
+                    "cost": "2.59", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 16.29, 
+            "vendor": "EL TACO", 
+            "time": "9:34"
+        }, 
+        {
             "date": "04/16/2019", 
             "items": [
                 {
@@ -14,7 +50,51 @@
             "time": "18:30"
         }, 
         {
-            "date": "04/17/2019", 
+            "date": "05/06/2019", 
+            "items": [
+                {
+                    "item": "Chicken Wings", 
+                    "cost": "15.0", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 15.0, 
+            "vendor": "EL TACO", 
+            "time": "18:30"
+        }, 
+        {
+            "date": "05/13/2019", 
+            "items": [
+                {
+                    "item": "Pepsi", 
+                    "cost": "1.99", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 1.99, 
+            "vendor": "McDonalds", 
+            "time": "19:30"
+        }, 
+        {
+            "date": "04/08/2019", 
+            "items": [
+                {
+                    "item": "Chilidog", 
+                    "cost": "4.99", 
+                    "quantity": "1"
+                }, 
+                {
+                    "item": "Pepsi", 
+                    "cost": "1.99", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 6.98, 
+            "vendor": "City Dogs", 
+            "time": "14:42"
+        }, 
+        {
+            "date": "04/22/2019", 
             "items": [
                 {
                     "item": "Mashed Potatos", 
@@ -30,6 +110,24 @@
             "totalCost": 9.98, 
             "vendor": "KFC", 
             "time": "12:33"
+        }, 
+        {
+            "date": "05/04/2019", 
+            "items": [
+                {
+                    "item": "Waffle Fries", 
+                    "cost": "3.99", 
+                    "quantity": "1"
+                }, 
+                {
+                    "item": "Chicken Sandwich", 
+                    "cost": "4.99", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 8.98, 
+            "vendor": "Chick-Fil-A", 
+            "time": "12:32"
         }, 
         {
             "date": "04/17/2019", 
@@ -130,6 +228,24 @@
             "totalCost": 5.98, 
             "vendor": "KFC", 
             "time": "18:45"
+        }, 
+        {
+            "date": "05/14/2019", 
+            "items": [
+                {
+                    "item": "Beef & Broccoli", 
+                    "cost": "5.99", 
+                    "quantity": "2"
+                }, 
+                {
+                    "item": "Orange Chicken", 
+                    "cost": "3.99", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 15.97, 
+            "vendor": "Panda Express", 
+            "time": "12:12"
         }, 
         {
             "date": "04/19/2019", 
@@ -261,6 +377,19 @@
             "time": "20:48"
         }, 
         {
+            "date": "05/17/2019", 
+            "items": [
+                {
+                    "item": "Beef & Broccoli", 
+                    "cost": "5.99", 
+                    "quantity": "2"
+                }
+            ], 
+            "totalCost": 11.98, 
+            "vendor": "Panda Express", 
+            "time": "12:26"
+        }, 
+        {
             "date": "04/28/2019", 
             "items": [
                 {
@@ -272,6 +401,29 @@
             "totalCost": 17.84, 
             "vendor": "Richmond Water", 
             "time": "18:34"
+        }, 
+        {
+            "date": "05/21/2019", 
+            "items": [
+                {
+                    "item": "Happy Meal", 
+                    "cost": "5.0", 
+                    "quantity": "1"
+                }, 
+                {
+                    "item": "Large Fries", 
+                    "cost": "2.0", 
+                    "quantity": "2"
+                }, 
+                {
+                    "item": "Pepsi", 
+                    "cost": "1.5", 
+                    "quantity": "1"
+                }
+            ], 
+            "totalCost": 10.5, 
+            "vendor": "McDonalds", 
+            "time": "12:19"
         }, 
         {
             "date": "04/28/2019", 

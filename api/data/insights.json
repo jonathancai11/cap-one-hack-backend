@@ -39,21 +39,23 @@
             {
                 "category": "DINING", 
                 "orderItems": {
+                    "Beef & Broccoli": "41.93", 
                     "Double Cheeseburger": "35.91", 
-                    "Beef & Broccoli": "17.97", 
+                    "Chicken Wings": "21.99", 
+                    "Pepsi": "17.32", 
                     "Snack Wrap": "15.96", 
-                    "Pepsi": "11.84", 
-                    "Chilidog": "9.98", 
-                    "Chicken Wings": "6.99", 
-                    "Orange Chicken": "5.99", 
+                    "Chilidog": "14.97", 
+                    "QUESAD CMB SD": "12.49", 
+                    "Happy Meal": "10.0", 
+                    "Orange Chicken": "9.98", 
+                    "Chicken Sandwich": "9.98", 
+                    "Large Fries": "8.0", 
+                    "Waffle Fries": "7.98", 
                     "Burger": "5.99", 
                     "French Fries": "5.98", 
-                    "Happy Meal": "5.0", 
                     "Chocolate Milkshake": "4.99", 
-                    "Chicken Sandwich": "4.99", 
-                    "Large Fries": "4.0", 
-                    "Waffle Fries": "3.99", 
-                    "Mashed Potatos": "2.99"
+                    "Mashed Potatos": "2.99", 
+                    "SODA BT": "2.59"
                 }
             }, 
             {
@@ -74,11 +76,15 @@
         ], 
         "vendors": [
             {
-                "vendor": "Walmart", 
+                "vendor": "Rent", 
                 "nBills": "2"
             }, 
             {
                 "vendor": "Richmond Gas Works", 
+                "nBills": "2"
+            }, 
+            {
+                "vendor": "Walmart", 
                 "nBills": "2"
             }, 
             {
@@ -91,15 +97,15 @@
             }, 
             {
                 "vendor": "City Dogs", 
-                "nBills": "2"
+                "nBills": "3"
             }, 
             {
                 "vendor": "Amazon", 
                 "nBills": "3"
             }, 
             {
-                "vendor": "Chick-Fil-A", 
-                "nBills": "1"
+                "vendor": "Panda Express", 
+                "nBills": "4"
             }, 
             {
                 "vendor": "Farm Fresh", 
@@ -110,6 +116,10 @@
                 "nBills": "2"
             }, 
             {
+                "vendor": "urban Farmhouse...", 
+                "nBills": "1"
+            }, 
+            {
                 "vendor": "KFC", 
                 "nBills": "2"
             }, 
@@ -118,7 +128,7 @@
                 "nBills": "1"
             }, 
             {
-                "vendor": "Panda Express", 
+                "vendor": "Chick-Fil-A", 
                 "nBills": "2"
             }, 
             {
@@ -127,7 +137,7 @@
             }, 
             {
                 "vendor": "McDonalds", 
-                "nBills": "6"
+                "nBills": "8"
             }, 
             {
                 "vendor": "Cookout", 
@@ -138,7 +148,7 @@
                 "nBills": "2"
             }, 
             {
-                "vendor": "Rent", 
+                "vendor": "EL TACO", 
                 "nBills": "2"
             }, 
             {
@@ -148,15 +158,15 @@
         ], 
         "dates": [
             {
-                "cost": "0", 
+                "cost": "33.95", 
                 "day": "Monday"
             }, 
             {
-                "cost": "17.55", 
+                "cost": "44.02", 
                 "day": "Tuesday"
             }, 
             {
-                "cost": "35.52", 
+                "cost": "25.54", 
                 "day": "Wednesday"
             }, 
             {
@@ -164,15 +174,15 @@
                 "day": "Thursday"
             }, 
             {
-                "cost": "12.96", 
+                "cost": "24.94", 
                 "day": "Friday"
             }, 
             {
-                "cost": "20.95", 
+                "cost": "29.93", 
                 "day": "Saturday"
             }, 
             {
-                "cost": "24.06", 
+                "cost": "40.35", 
                 "day": "Sunday"
             }
         ], 
@@ -190,7 +200,7 @@
                 "vendor": "UTILITIES"
             }, 
             {
-                "cost": "142.57", 
+                "cost": "230.26", 
                 "vendor": "DINING"
             }, 
             {

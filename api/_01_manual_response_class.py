@@ -13,6 +13,9 @@ img_resp = {
 
 @app.route('/init')
 def init():
+    global count
+    count = 0
+    print(count)
     aList = makeData()
     monthTrans = make_month('api/data/history.json')
 
@@ -78,6 +81,8 @@ def insights():
     with open('api/data/insights.json', 'w') as json_file:  
         insights_resp = make_insight_json('api/data/history.json')
         json.dump(insights_resp, json_file, indent= 4)
+
+    
          
     response = Response(
         json.dumps(insights_resp), status=200, mimetype=JSON_MIME_TYPE)

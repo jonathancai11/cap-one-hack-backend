@@ -1,5 +1,384 @@
 {
     "transaction": {
+        "May": [
+            {
+                "date": "05/19/2019", 
+                "items": [
+                    {
+                        "item": "QUESAD CMB SD", 
+                        "cost": "12.49", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "SODA BT", 
+                        "cost": "2.59", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 16.29, 
+                "vendor": "EL TACO", 
+                "time": "9:34"
+            }, 
+            {
+                "date": "05/06/2019", 
+                "items": [
+                    {
+                        "item": "Chicken Wings", 
+                        "cost": "15.0", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 15.0, 
+                "vendor": "EL TACO", 
+                "time": "18:30"
+            }, 
+            {
+                "date": "05/13/2019", 
+                "items": [
+                    {
+                        "item": "Pepsi", 
+                        "cost": "1.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 1.99, 
+                "vendor": "McDonalds", 
+                "time": "19:30"
+            }, 
+            {
+                "date": "05/04/2019", 
+                "items": [
+                    {
+                        "item": "Waffle Fries", 
+                        "cost": "3.99", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Chicken Sandwich", 
+                        "cost": "4.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 8.98, 
+                "vendor": "Chick-Fil-A", 
+                "time": "12:32"
+            }, 
+            {
+                "date": "05/14/2019", 
+                "items": [
+                    {
+                        "item": "Beef & Broccoli", 
+                        "cost": "5.99", 
+                        "quantity": "2"
+                    }, 
+                    {
+                        "item": "Orange Chicken", 
+                        "cost": "3.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 15.97, 
+                "vendor": "Panda Express", 
+                "time": "12:12"
+            }, 
+            {
+                "date": "05/17/2019", 
+                "items": [
+                    {
+                        "item": "Beef & Broccoli", 
+                        "cost": "5.99", 
+                        "quantity": "2"
+                    }
+                ], 
+                "totalCost": 11.98, 
+                "vendor": "Panda Express", 
+                "time": "12:26"
+            }, 
+            {
+                "date": "05/21/2019", 
+                "items": [
+                    {
+                        "item": "Happy Meal", 
+                        "cost": "5.0", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Large Fries", 
+                        "cost": "2.0", 
+                        "quantity": "2"
+                    }, 
+                    {
+                        "item": "Pepsi", 
+                        "cost": "1.5", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 10.5, 
+                "vendor": "McDonalds", 
+                "time": "12:19"
+            }, 
+            {
+                "date": "05/02/2019", 
+                "items": [
+                    {
+                        "item": "Avengers Endgame", 
+                        "cost": "10.0", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 10.0, 
+                "vendor": "Regal Theatre", 
+                "time": "08:30"
+            }, 
+            {
+                "date": "05/02/2019", 
+                "items": [
+                    {
+                        "item": "Beef & Broccoli", 
+                        "cost": "5.99", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Orange Chicken", 
+                        "cost": "5.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 11.98, 
+                "vendor": "Panda Express", 
+                "time": "12:12"
+            }, 
+            {
+                "date": "05/04/2019", 
+                "items": [
+                    {
+                        "item": "Waffle Fries", 
+                        "cost": "3.99", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Chicken Sandwich", 
+                        "cost": "4.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 8.98, 
+                "vendor": "Chick-Fil-A", 
+                "time": "12:32"
+            }, 
+            {
+                "date": "05/06/2019", 
+                "items": [
+                    {
+                        "item": "Pears", 
+                        "cost": "0.6", 
+                        "quantity": "10"
+                    }, 
+                    {
+                        "item": "Instant Ramen", 
+                        "cost": "0.1", 
+                        "quantity": "18"
+                    }, 
+                    {
+                        "item": "Twixs", 
+                        "cost": "0.99", 
+                        "quantity": "2"
+                    }
+                ], 
+                "totalCost": 9.78, 
+                "vendor": "Walmart", 
+                "time": "19:24"
+            }, 
+            {
+                "date": "05/08/2019", 
+                "items": [
+                    {
+                        "item": "AirPods", 
+                        "cost": "129.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 129.99, 
+                "vendor": "Amazon", 
+                "time": "19:21"
+            }, 
+            {
+                "date": "05/12/2019", 
+                "items": [
+                    {
+                        "item": "iPhone Chargers", 
+                        "cost": "19.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 19.99, 
+                "vendor": "Amazon", 
+                "time": "20:19"
+            }, 
+            {
+                "date": "05/15/2019", 
+                "items": [
+                    {
+                        "item": "Beef & Broccoli", 
+                        "cost": "5.99", 
+                        "quantity": "2"
+                    }
+                ], 
+                "totalCost": 11.98, 
+                "vendor": "Panda Express", 
+                "time": "12:26"
+            }, 
+            {
+                "date": "05/18/2019", 
+                "items": [
+                    {
+                        "item": "Facewash", 
+                        "cost": "4.99", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Shampoo", 
+                        "cost": "7.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 12.98, 
+                "vendor": "CVS Pharmarcy", 
+                "time": "20:14"
+            }, 
+            {
+                "date": "05/19/2019", 
+                "items": [
+                    {
+                        "item": "Happy Meal", 
+                        "cost": "5.0", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Large Fries", 
+                        "cost": "2.0", 
+                        "quantity": "2"
+                    }, 
+                    {
+                        "item": "Pepsi", 
+                        "cost": "1.5", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 10.5, 
+                "vendor": "McDonalds", 
+                "time": "12:19"
+            }, 
+            {
+                "date": "05/19/2019", 
+                "items": [
+                    {
+                        "item": "Gas", 
+                        "cost": "12.55", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 12.55, 
+                "vendor": "Richmond Gas Works", 
+                "time": "03:45"
+            }, 
+            {
+                "date": "05/22/2019", 
+                "items": [
+                    {
+                        "item": "Water", 
+                        "cost": "25.32", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 25.32, 
+                "vendor": "Richmond Water", 
+                "time": "22:23"
+            }, 
+            {
+                "date": "05/23/2019", 
+                "items": [
+                    {
+                        "item": "Internet", 
+                        "cost": "19.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 19.99, 
+                "vendor": "Comcast", 
+                "time": "01:12"
+            }, 
+            {
+                "date": "05/25/2019", 
+                "items": [
+                    {
+                        "item": "Power", 
+                        "cost": "18.23", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 18.23, 
+                "vendor": "Dominion", 
+                "time": "13:18"
+            }, 
+            {
+                "date": "05/26/2019", 
+                "items": [
+                    {
+                        "item": "Rent", 
+                        "cost": "550.0", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 550.0, 
+                "vendor": "Rent", 
+                "time": "16:40"
+            }, 
+            {
+                "date": "05/23/2019", 
+                "items": [
+                    {
+                        "item": "Burger", 
+                        "cost": "5.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 5.99, 
+                "vendor": "Cookout", 
+                "time": "01:12"
+            }, 
+            {
+                "date": "05/25/2019", 
+                "items": [
+                    {
+                        "item": "Chocolate Milkshake", 
+                        "cost": "4.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 4.99, 
+                "vendor": "Steak Shake", 
+                "time": "13:18"
+            }, 
+            {
+                "date": "05/26/2019", 
+                "items": [
+                    {
+                        "item": "Chips", 
+                        "cost": "10.0", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Cookies", 
+                        "cost": "5.0", 
+                        "quantity": "2"
+                    }
+                ], 
+                "totalCost": 20.0, 
+                "vendor": "Walmart", 
+                "time": "16:40"
+            }
+        ], 
         "Apr": [
             {
                 "date": "04/16/2019", 
@@ -15,7 +394,25 @@
                 "time": "18:30"
             }, 
             {
-                "date": "04/17/2019", 
+                "date": "04/08/2019", 
+                "items": [
+                    {
+                        "item": "Chilidog", 
+                        "cost": "4.99", 
+                        "quantity": "1"
+                    }, 
+                    {
+                        "item": "Pepsi", 
+                        "cost": "1.99", 
+                        "quantity": "1"
+                    }
+                ], 
+                "totalCost": 6.98, 
+                "vendor": "City Dogs", 
+                "time": "14:42"
+            }, 
+            {
+                "date": "04/22/2019", 
                 "items": [
                     {
                         "item": "Mashed Potatos", 
@@ -335,269 +732,6 @@
                 "totalCost": 550.0, 
                 "vendor": "Rent", 
                 "time": "17:12"
-            }
-        ], 
-        "May": [
-            {
-                "date": "05/02/2019", 
-                "items": [
-                    {
-                        "item": "Avengers Endgame", 
-                        "cost": "10.0", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 10.0, 
-                "vendor": "Regal Theatre", 
-                "time": "08:30"
-            }, 
-            {
-                "date": "05/02/2019", 
-                "items": [
-                    {
-                        "item": "Beef & Broccoli", 
-                        "cost": "5.99", 
-                        "quantity": "1"
-                    }, 
-                    {
-                        "item": "Orange Chicken", 
-                        "cost": "5.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 11.98, 
-                "vendor": "Panda Express", 
-                "time": "12:12"
-            }, 
-            {
-                "date": "05/04/2019", 
-                "items": [
-                    {
-                        "item": "Waffle Fries", 
-                        "cost": "3.99", 
-                        "quantity": "1"
-                    }, 
-                    {
-                        "item": "Chicken Sandwich", 
-                        "cost": "4.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 8.98, 
-                "vendor": "Chick-Fil-A", 
-                "time": "12:32"
-            }, 
-            {
-                "date": "05/06/2019", 
-                "items": [
-                    {
-                        "item": "Pears", 
-                        "cost": "0.6", 
-                        "quantity": "10"
-                    }, 
-                    {
-                        "item": "Instant Ramen", 
-                        "cost": "0.1", 
-                        "quantity": "18"
-                    }, 
-                    {
-                        "item": "Twixs", 
-                        "cost": "0.99", 
-                        "quantity": "2"
-                    }
-                ], 
-                "totalCost": 9.78, 
-                "vendor": "Walmart", 
-                "time": "19:24"
-            }, 
-            {
-                "date": "05/08/2019", 
-                "items": [
-                    {
-                        "item": "AirPods", 
-                        "cost": "129.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 129.99, 
-                "vendor": "Amazon", 
-                "time": "19:21"
-            }, 
-            {
-                "date": "05/12/2019", 
-                "items": [
-                    {
-                        "item": "iPhone Chargers", 
-                        "cost": "19.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 19.99, 
-                "vendor": "Amazon", 
-                "time": "20:19"
-            }, 
-            {
-                "date": "05/15/2019", 
-                "items": [
-                    {
-                        "item": "Beef & Broccoli", 
-                        "cost": "5.99", 
-                        "quantity": "2"
-                    }
-                ], 
-                "totalCost": 11.98, 
-                "vendor": "Panda Express", 
-                "time": "12:26"
-            }, 
-            {
-                "date": "05/18/2019", 
-                "items": [
-                    {
-                        "item": "Facewash", 
-                        "cost": "4.99", 
-                        "quantity": "1"
-                    }, 
-                    {
-                        "item": "Shampoo", 
-                        "cost": "7.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 12.98, 
-                "vendor": "CVS Pharmarcy", 
-                "time": "20:14"
-            }, 
-            {
-                "date": "05/19/2019", 
-                "items": [
-                    {
-                        "item": "Happy Meal", 
-                        "cost": "5.0", 
-                        "quantity": "1"
-                    }, 
-                    {
-                        "item": "Large Fries", 
-                        "cost": "2.0", 
-                        "quantity": "2"
-                    }, 
-                    {
-                        "item": "Pepsi", 
-                        "cost": "1.5", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 10.5, 
-                "vendor": "McDonalds", 
-                "time": "12:19"
-            }, 
-            {
-                "date": "05/19/2019", 
-                "items": [
-                    {
-                        "item": "Gas", 
-                        "cost": "12.55", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 12.55, 
-                "vendor": "Richmond Gas Works", 
-                "time": "03:45"
-            }, 
-            {
-                "date": "05/22/2019", 
-                "items": [
-                    {
-                        "item": "Water", 
-                        "cost": "25.32", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 25.32, 
-                "vendor": "Richmond Water", 
-                "time": "22:23"
-            }, 
-            {
-                "date": "05/23/2019", 
-                "items": [
-                    {
-                        "item": "Internet", 
-                        "cost": "19.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 19.99, 
-                "vendor": "Comcast", 
-                "time": "01:12"
-            }, 
-            {
-                "date": "05/25/2019", 
-                "items": [
-                    {
-                        "item": "Power", 
-                        "cost": "18.23", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 18.23, 
-                "vendor": "Dominion", 
-                "time": "13:18"
-            }, 
-            {
-                "date": "05/26/2019", 
-                "items": [
-                    {
-                        "item": "Rent", 
-                        "cost": "550.0", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 550.0, 
-                "vendor": "Rent", 
-                "time": "16:40"
-            }, 
-            {
-                "date": "05/23/2019", 
-                "items": [
-                    {
-                        "item": "Burger", 
-                        "cost": "5.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 5.99, 
-                "vendor": "Cookout", 
-                "time": "01:12"
-            }, 
-            {
-                "date": "05/25/2019", 
-                "items": [
-                    {
-                        "item": "Chocolate Milkshake", 
-                        "cost": "4.99", 
-                        "quantity": "1"
-                    }
-                ], 
-                "totalCost": 4.99, 
-                "vendor": "Steak Shake", 
-                "time": "13:18"
-            }, 
-            {
-                "date": "05/26/2019", 
-                "items": [
-                    {
-                        "item": "Chips", 
-                        "cost": "10.0", 
-                        "quantity": "1"
-                    }, 
-                    {
-                        "item": "Cookies", 
-                        "cost": "5.0", 
-                        "quantity": "2"
-                    }
-                ], 
-                "totalCost": 20.0, 
-                "vendor": "Walmart", 
-                "time": "16:40"
             }
         ]
     }
