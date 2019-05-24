@@ -4,7 +4,7 @@ from collections import OrderedDict
 from datetime import datetime
 
 vendor_cat = {
-    "DINING": {'KFC','City Dogs', 'McDonalds', 'Panda Express', 'Chick-Fil-A'},
+    "DINING": {'KFC','City Dogs', 'McDonalds', 'Panda Express', 'Chick-Fil-A', 'EL TACO', 'urban Farmhouse market & care', 'Cookout', 'Steak Shake'},
     "GROCERY": {'Farm Fresh','CVS Pharmarcy', 'Walmart'},
     "ENTERTAINMENT": {'Regal Theatre'},
     "ELECTRONIC": {'Amazon','Best Buy', },

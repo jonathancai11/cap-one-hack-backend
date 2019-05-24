@@ -5,8 +5,8 @@
                 "category": "GROCERY", 
                 "orderItems": {
                     "Chips": "24.95", 
-                    "Oranges": "18.75", 
-                    "Bananas": "11.2", 
+                    "Oranges": "16.5", 
+                    "Bananas": "10.08", 
                     "Cookies": "10.0", 
                     "Salsa": "9.99", 
                     "Shampoo": "7.99", 
@@ -15,15 +15,15 @@
                     "Pears": "6.0", 
                     "Q-Tips": "5.67", 
                     "Facewash": "4.99", 
-                    "Twix": "4.95", 
-                    "Apples": "4.5", 
-                    "Instant Ramen": "2.0"
+                    "Apples": "3.15", 
+                    "Twixs": "1.98", 
+                    "Instant Ramen": "1.8"
                 }
             }, 
             {
                 "category": "ENTERTAINMENT", 
                 "orderItems": {
-                    "John Wick 3 IMAX ": "21.38", 
+                    "John Wick 3 IMAX ": "15.0", 
                     "Avengers Endgame": "10.0"
                 }
             }, 
@@ -39,17 +39,21 @@
             {
                 "category": "DINING", 
                 "orderItems": {
-                    "Beef and Broccoli": "20.97", 
-                    "Happy Meal, Large Fries, Pepsi": "15.0", 
-                    "Waffle Fries": "7.98", 
+                    "Double Cheeseburger": "35.91", 
+                    "Beef & Broccoli": "17.97", 
+                    "Snack Wrap": "15.96", 
+                    "Pepsi": "11.84", 
+                    "Chilidog": "9.98", 
                     "Chicken Wings": "6.99", 
-                    "Orange Chicken": "6.99", 
+                    "Orange Chicken": "5.99", 
+                    "Burger": "5.99", 
                     "French Fries": "5.98", 
-                    "Chilidog": "4.99", 
+                    "Happy Meal": "5.0", 
+                    "Chocolate Milkshake": "4.99", 
                     "Chicken Sandwich": "4.99", 
-                    "Double Cheeseburger, Snack Wrap, Pepsi": "3.98", 
-                    "Mashed Potatos": "2.99", 
-                    "Pepsi": "1.99"
+                    "Large Fries": "4.0", 
+                    "Waffle Fries": "3.99", 
+                    "Mashed Potatos": "2.99"
                 }
             }, 
             {
@@ -78,16 +82,16 @@
                 "nBills": "2"
             }, 
             {
-                "vendor": "StakeShake", 
-                "nBills": "1"
-            }, 
-            {
                 "vendor": "Dominion", 
                 "nBills": "2"
             }, 
             {
-                "vendor": "City Dogs", 
+                "vendor": "Steak Shake", 
                 "nBills": "1"
+            }, 
+            {
+                "vendor": "City Dogs", 
+                "nBills": "2"
             }, 
             {
                 "vendor": "Amazon", 
@@ -123,7 +127,7 @@
             }, 
             {
                 "vendor": "McDonalds", 
-                "nBills": "2"
+                "nBills": "6"
             }, 
             {
                 "vendor": "Cookout", 
@@ -148,37 +152,37 @@
                 "day": "Monday"
             }, 
             {
-                "cost": "0", 
+                "cost": "17.55", 
                 "day": "Tuesday"
             }, 
             {
-                "cost": "23.96", 
+                "cost": "35.52", 
                 "day": "Wednesday"
             }, 
             {
-                "cost": "20.96", 
+                "cost": "31.53", 
                 "day": "Thursday"
             }, 
             {
-                "cost": "5.98", 
+                "cost": "12.96", 
                 "day": "Friday"
             }, 
             {
-                "cost": "12.97", 
+                "cost": "20.95", 
                 "day": "Saturday"
             }, 
             {
-                "cost": "18.98", 
+                "cost": "24.06", 
                 "day": "Sunday"
             }
         ], 
         "categories": [
             {
-                "cost": "126.79", 
+                "cost": "118.9", 
                 "vendor": "GROCERY"
             }, 
             {
-                "cost": "31.38", 
+                "cost": "25.0", 
                 "vendor": "ENTERTAINMENT"
             }, 
             {
@@ -186,7 +190,7 @@
                 "vendor": "UTILITIES"
             }, 
             {
-                "cost": "82.85", 
+                "cost": "142.57", 
                 "vendor": "DINING"
             }, 
             {

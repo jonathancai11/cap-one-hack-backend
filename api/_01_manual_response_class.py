@@ -2,7 +2,7 @@ import json
 from flask import Flask, Response, abort
 from .utils import JSON_MIME_TYPE, search_book
 from .insight import make_insight_json, make_month
-from .generate import makeData, makeDemo
+from .generate import makeData
 count = 0
 
 app = Flask(__name__)
@@ -24,12 +24,6 @@ def init():
 
     return 'Init OK'
 
-@app.route('/demo')
-def demo():
-    aList = makeDemo()
-    with open('api/data/demo.json', 'w') as json_file:
-        json.dump(aList,json_file, indent= 4)
-    return 'Demo OK'
 
 @app.route('/api/img')
 def img_upload():

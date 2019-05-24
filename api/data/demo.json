@@ -1,46 +1,38 @@
 [
     {
-        "date": "06/23/2019", 
+        "date": "05/19/2019",
         "items": [
             {
-                "item": "Burger", 
-                "cost": "5.99", 
+                "item": "QUESAD CMB SD",
+                "cost": "12.49",
+                "quantity": "1"
+            },
+            {
+                "item": "SODA BT",
+                "cost": "2.59",
                 "quantity": "1"
             }
-        ], 
-        "totalCost": 5.99, 
-        "vendor": "Chick-Fil-A", 
-        "time": "01:12"
-    }, 
+        ],
+        "totalCost": 16.29,
+        "vendor": "EL TACO",
+        "time": "9:34"
+    },
     {
-        "date": "06/25/2019", 
+        "date": "05/19/2019",
         "items": [
             {
-                "item": "Coke", 
-                "cost": "2.99", 
+                "item": "Shake",
+                "cost": "4.85",
+                "quantity": "1"
+            },
+            {
+                "item": "Seasonal",
+                "cost": "1.00",
                 "quantity": "1"
             }
-        ], 
-        "totalCost": 2.99, 
-        "vendor": "McDonalds", 
-        "time": "13:18"
-    }, 
-    {
-        "date": "06/26/2019", 
-        "items": [
-            {
-                "item": "Chips", 
-                "cost": "10.0", 
-                "quantity": "1"
-            }, 
-            {
-                "item": "Cookies", 
-                "cost": "5.0", 
-                "quantity": "2"
-            }
-        ], 
-        "totalCost": 20.0, 
-        "vendor": "Walmart", 
-        "time": "16:40"
+        ],
+        "totalCost": 7.59,
+        "vendor": "urban Farmhouse market & care",
+        "time": "4:10"
     }
 ]
