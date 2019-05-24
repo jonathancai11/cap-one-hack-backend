@@ -37,7 +37,7 @@ def img_upload():
 
     global count
     
-    history_json.insert(0, demo_json[count])
+    history_json["transactions"].insert(0, demo_json[count])
     
     with open('api/data/history.json', 'w') as fb:
         json.dump(history_json, fb, indent= 4)

@@ -53,7 +53,9 @@ def makeData():
     aList.append(genTrans('Comcast', 2019, 6, 23, 1, 12,  ['Internet'], [19.99], [1]))
     aList.append(genTrans('Dominion', 2019, 6, 25, 13, 18,  ['Power'], [18.23], [1]))
     aList.append(genTrans('Rent', 2019, 6, 26, 16, 40,  ['Rent'], [550.00], [1]))
-    return aList
+    return {
+        "transactions": aList
+    }
 
 def makeDemo():
     aList = list()
