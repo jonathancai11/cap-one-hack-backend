@@ -5,8 +5,8 @@
             "items": [
                 {
                     "item": "John Wick 3 IMAX ", 
-                    "cost": 21.38, 
-                    "quantity": 1
+                    "cost": "21.38", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 21.38, 
@@ -18,13 +18,13 @@
             "items": [
                 {
                     "item": "Mashed Potatos", 
-                    "cost": 2.99, 
-                    "quantity": 1
+                    "cost": "2.99", 
+                    "quantity": "1"
                 }, 
                 {
                     "item": "Chicken Wings", 
-                    "cost": 6.99, 
-                    "quantity": 1
+                    "cost": "6.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 9.98, 
@@ -36,13 +36,13 @@
             "items": [
                 {
                     "item": "Chilidog", 
-                    "cost": 4.99, 
-                    "quantity": 1
+                    "cost": "4.99", 
+                    "quantity": "1"
                 }, 
                 {
                     "item": "Pepsi", 
-                    "cost": 1.99, 
-                    "quantity": 1
+                    "cost": "1.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 6.98, 
@@ -54,18 +54,18 @@
             "items": [
                 {
                     "item": "Apples", 
-                    "cost": 0.45, 
-                    "quantity": 10
+                    "cost": "0.45", 
+                    "quantity": "10"
                 }, 
                 {
                     "item": "Bananas", 
-                    "cost": 0.56, 
-                    "quantity": 20
+                    "cost": "0.56", 
+                    "quantity": "20"
                 }, 
                 {
                     "item": "Oranges", 
-                    "cost": 0.75, 
-                    "quantity": 25
+                    "cost": "0.75", 
+                    "quantity": "25"
                 }
             ], 
             "totalCost": 34.45, 
@@ -77,8 +77,8 @@
             "items": [
                 {
                     "item": "Kindle Fire", 
-                    "cost": 29.99, 
-                    "quantity": 1
+                    "cost": "29.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 29.99, 
@@ -90,8 +90,8 @@
             "items": [
                 {
                     "item": "Nintendo Switch", 
-                    "cost": 249.99, 
-                    "quantity": 1
+                    "cost": "249.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 249.99, 
@@ -103,8 +103,8 @@
             "items": [
                 {
                     "item": "French Fries", 
-                    "cost": 2.99, 
-                    "quantity": 2
+                    "cost": "2.99", 
+                    "quantity": "2"
                 }
             ], 
             "totalCost": 5.98, 
@@ -116,13 +116,13 @@
             "items": [
                 {
                     "item": "Q-Tips", 
-                    "cost": 5.67, 
-                    "quantity": 1
+                    "cost": "5.67", 
+                    "quantity": "1"
                 }, 
                 {
                     "item": "Contact Lens Solution", 
-                    "cost": 7.82, 
-                    "quantity": 1
+                    "cost": "7.82", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 13.49, 
@@ -134,8 +134,8 @@
             "items": [
                 {
                     "item": "Double Cheeseburger, Snack Wrap, Pepsi", 
-                    "cost": 2.0, 
-                    "quantity": 2
+                    "cost": "2.0", 
+                    "quantity": "2"
                 }
             ], 
             "totalCost": 4.0, 
@@ -147,8 +147,8 @@
             "items": [
                 {
                     "item": "Gas", 
-                    "cost": 15.15, 
-                    "quantity": 1
+                    "cost": "15.15", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 15.15, 
@@ -160,8 +160,8 @@
             "items": [
                 {
                     "item": "Water", 
-                    "cost": 17.84, 
-                    "quantity": 1
+                    "cost": "17.84", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 17.84, 
@@ -173,8 +173,8 @@
             "items": [
                 {
                     "item": "Internet", 
-                    "cost": 19.99, 
-                    "quantity": 1
+                    "cost": "19.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 19.99, 
@@ -186,18 +186,18 @@
             "items": [
                 {
                     "item": "Bread", 
-                    "cost": 3.99, 
-                    "quantity": 2
+                    "cost": "3.99", 
+                    "quantity": "2"
                 }, 
                 {
                     "item": "Chips", 
-                    "cost": 2.99, 
-                    "quantity": 5
+                    "cost": "2.99", 
+                    "quantity": "5"
                 }, 
                 {
                     "item": "Salsa", 
-                    "cost": 9.99, 
-                    "quantity": 1
+                    "cost": "9.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 32.92, 
@@ -209,8 +209,8 @@
             "items": [
                 {
                     "item": "Power", 
-                    "cost": 13.53, 
-                    "quantity": 1
+                    "cost": "13.53", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 13.53, 
@@ -222,8 +222,8 @@
             "items": [
                 {
                     "item": "Rent", 
-                    "cost": 550.0, 
-                    "quantity": 1
+                    "cost": "550.0", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 550.0, 
@@ -235,8 +235,8 @@
             "items": [
                 {
                     "item": "Avengers Endgame", 
-                    "cost": 10.0, 
-                    "quantity": 1
+                    "cost": "10.0", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 10.0, 
@@ -248,13 +248,13 @@
             "items": [
                 {
                     "item": "Beef and Broccoli", 
-                    "cost": 6.99, 
-                    "quantity": 1
+                    "cost": "6.99", 
+                    "quantity": "1"
                 }, 
                 {
                     "item": "Orange Chicken", 
-                    "cost": 6.99, 
-                    "quantity": 1
+                    "cost": "6.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 13.98, 
@@ -266,13 +266,13 @@
             "items": [
                 {
                     "item": "Waffle Fries", 
-                    "cost": 3.99, 
-                    "quantity": 2
+                    "cost": "3.99", 
+                    "quantity": "2"
                 }, 
                 {
                     "item": "Chicken Sandwich", 
-                    "cost": 4.99, 
-                    "quantity": 1
+                    "cost": "4.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 12.97, 
@@ -284,18 +284,18 @@
             "items": [
                 {
                     "item": "Pears", 
-                    "cost": 0.6, 
-                    "quantity": 10
+                    "cost": "0.6", 
+                    "quantity": "10"
                 }, 
                 {
                     "item": "Instant Ramen", 
-                    "cost": 0.1, 
-                    "quantity": 20
+                    "cost": "0.1", 
+                    "quantity": "20"
                 }, 
                 {
                     "item": "Twix", 
-                    "cost": 0.99, 
-                    "quantity": 5
+                    "cost": "0.99", 
+                    "quantity": "5"
                 }
             ], 
             "totalCost": 12.95, 
@@ -307,8 +307,8 @@
             "items": [
                 {
                     "item": "AirPods", 
-                    "cost": 129.99, 
-                    "quantity": 1
+                    "cost": "129.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 129.99, 
@@ -320,8 +320,8 @@
             "items": [
                 {
                     "item": "iPhone Chargers", 
-                    "cost": 19.99, 
-                    "quantity": 1
+                    "cost": "19.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 19.99, 
@@ -333,8 +333,8 @@
             "items": [
                 {
                     "item": "Beef and Broccoli", 
-                    "cost": 6.99, 
-                    "quantity": 2
+                    "cost": "6.99", 
+                    "quantity": "2"
                 }
             ], 
             "totalCost": 13.98, 
@@ -346,13 +346,13 @@
             "items": [
                 {
                     "item": "Facewash", 
-                    "cost": 4.99, 
-                    "quantity": 1
+                    "cost": "4.99", 
+                    "quantity": "1"
                 }, 
                 {
                     "item": "Shampoo", 
-                    "cost": 7.99, 
-                    "quantity": 1
+                    "cost": "7.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 12.98, 
@@ -364,8 +364,8 @@
             "items": [
                 {
                     "item": "Happy Meal, Large Fries, Pepsi", 
-                    "cost": 5.0, 
-                    "quantity": 3
+                    "cost": "5.0", 
+                    "quantity": "3"
                 }
             ], 
             "totalCost": 15.0, 
@@ -377,8 +377,8 @@
             "items": [
                 {
                     "item": "Gas", 
-                    "cost": 12.55, 
-                    "quantity": 1
+                    "cost": "12.55", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 12.55, 
@@ -390,8 +390,8 @@
             "items": [
                 {
                     "item": "Water", 
-                    "cost": 25.32, 
-                    "quantity": 1
+                    "cost": "25.32", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 25.32, 
@@ -403,8 +403,8 @@
             "items": [
                 {
                     "item": "Internet", 
-                    "cost": 19.99, 
-                    "quantity": 1
+                    "cost": "19.99", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 19.99, 
@@ -416,8 +416,8 @@
             "items": [
                 {
                     "item": "Power", 
-                    "cost": 18.23, 
-                    "quantity": 1
+                    "cost": "18.23", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 18.23, 
@@ -429,8 +429,8 @@
             "items": [
                 {
                     "item": "Rent", 
-                    "cost": 550.0, 
-                    "quantity": 1
+                    "cost": "550.0", 
+                    "quantity": "1"
                 }
             ], 
             "totalCost": 550.0, 

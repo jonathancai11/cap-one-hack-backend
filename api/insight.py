@@ -46,7 +46,7 @@ def insight_dates(json_file):
     for index, dates in enumerate(weekday):
         aDict = dict()
         aDict["day"] = dates
-        aDict["cost"]= dateCost[index]
+        aDict["cost"]= str(dateCost[index])
         aList.append(aDict)
     return aList 
 
@@ -67,7 +67,7 @@ def insight_categories(json_file):
     for category, cost in cost_cat.items():
         aDict = dict()
         aDict["vendor"] = category
-        aDict["cost"] = cost
+        aDict["cost"] = str(cost)
         aList.append(aDict)
     return aList
 
@@ -85,7 +85,7 @@ def insight_vendors(json_file):
     for vendor, nBills in Vendor.items():
         aDict = dict()
         aDict["vendor"] = vendor
-        aDict["nBills"] = nBills
+        aDict["nBills"] = str(nBills)
         aList.append(aDict)
     return aList
 
@@ -111,7 +111,7 @@ def insight_specific_categories(json_file):
     for category in specific_cat:
         c = Counter(specific_cat[category])
         for tuple_category in c.most_common():
-            return_dict[category][tuple_category[0]] = tuple_category[1]
+            return_dict[category][tuple_category[0]] = str(tuple_category[1])
     
     aList = list()
     for category, order_dict in return_dict.items():
@@ -133,22 +133,22 @@ def make_insight_json(json_file):
             [
                 {
                     "service" : "Netflix",
-                    "cost" : 10
+                    "cost" : '10'
                 },
                 {
                     "service" : "Hulu",
-                    "cost" : 5
+                    "cost" : '5'
                 },
                 {
                     "service" : "Apple Music",
-                    "cost" : 5
+                    "cost" : '5'
                 }
             ],
         "yearly" :
             [
                 {
                     "service" : "Xbox Live Gold Membership",
-                    "cost" : 50
+                    "cost" : '50'
                 }
             ]
     }
