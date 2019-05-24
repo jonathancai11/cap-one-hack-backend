@@ -33,7 +33,7 @@ def _byteify(data, ignore_dicts = False):
 
 def insight_dates(json_file):
     with open(json_file) as readJSON:
-        data = json.load(readJSON, object_hook= _byteify)
+        data = json.load(readJSON, object_hook= _byteify)["transactions"]
 
     dateCost = [0]*7
 
@@ -52,7 +52,7 @@ def insight_dates(json_file):
 
 def insight_categories(json_file):
     with open(json_file) as readJSON:
-        data = json.load(readJSON, object_hook= _byteify)
+        data = json.load(readJSON, object_hook= _byteify)["transactions"]
 
     cost_cat = dict()
     for vendor in vendor_cat:
@@ -74,7 +74,7 @@ def insight_categories(json_file):
 def insight_vendors(json_file):
     Vendor = {} 
     with open(json_file) as json_file:
-        data = json.load(json_file, object_hook= _byteify)
+        data = json.load(json_file, object_hook= _byteify)["transactions"]
     for transaction in data:
         if transaction["vendor"] in Vendor:
             Vendor[transaction["vendor"]] += 1
@@ -91,7 +91,7 @@ def insight_vendors(json_file):
 
 def insight_specific_categories(json_file):
     with open(json_file) as readJSON:
-        data = json.load(readJSON, object_hook= _byteify)
+        data = json.load(readJSON, object_hook= _byteify)["transactions"]
 
     specific_cat = dict()
     return_dict = dict()
@@ -104,9 +104,9 @@ def insight_specific_categories(json_file):
             if transaction["vendor"] in vendor_cat[vendor]:
                 for item in transaction["items"]:
                     if item["item"] not in specific_cat[vendor]:
-                        specific_cat[vendor][item["item"]] = item["cost"] * item["quantity"]
+                        specific_cat[vendor][item["item"]] = float(item["cost"]) * int(item["quantity"])
                     else:
-                        specific_cat[vendor][item["item"]] += item["cost"] * item["quantity"]
+                        specific_cat[vendor][item["item"]] += float(item["cost"]) * int(item["quantity"])
 
     for category in specific_cat:
         c = Counter(specific_cat[category])

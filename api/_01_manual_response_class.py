@@ -71,7 +71,6 @@ def insights():
         json.dumps(insights_resp), status=200, mimetype=JSON_MIME_TYPE)
     return response
 
-
 @app.errorhandler(404)
 def not_found(e):
     return '', 404

@@ -4,210 +4,209 @@
             {
                 "category": "GROCERY", 
                 "orderItems": {
-                    "Oranges": 18.75, 
-                    "Chips": 14.950000000000001, 
-                    "Bananas": 11.200000000000001, 
-                    "Salsa": 9.99, 
-                    "Shampoo": 7.99, 
-                    "Bread": 7.98, 
-                    "Contact Lens Solution": 7.82, 
-                    "Pears": 6.0, 
-                    "Q-Tips": 5.67, 
-                    "Facewash": 4.99, 
-                    "Twix": 4.95, 
-                    "Apples": 4.5, 
-                    "Instant Ramen": 2.0
+                    "Oranges": "18.75", 
+                    "Chips": "14.95", 
+                    "Bananas": "11.2", 
+                    "Salsa": "9.99", 
+                    "Shampoo": "7.99", 
+                    "Bread": "7.98", 
+                    "Contact Lens Solution": "7.82", 
+                    "Pears": "6.0", 
+                    "Q-Tips": "5.67", 
+                    "Facewash": "4.99", 
+                    "Twix": "4.95", 
+                    "Apples": "4.5", 
+                    "Instant Ramen": "2.0"
                 }
             }, 
             {
                 "category": "ENTERTAINMENT", 
                 "orderItems": {
-                    "John Wick 3 IMAX ": 21.38, 
-                    "Avengers Endgame": 10.0
+                    "John Wick 3 IMAX ": "21.38", 
+                    "Avengers Endgame": "10.0"
                 }
             }, 
             {
                 "category": "UTILITIES", 
                 "orderItems": {
-                    "Water": 43.16, 
-                    "Internet": 39.98, 
-                    "Power": 31.759999999999998, 
-                    "Gas": 27.700000000000003
+                    "Water": "43.16", 
+                    "Internet": "39.98", 
+                    "Power": "31.76", 
+                    "Gas": "27.7"
                 }
             }, 
             {
                 "category": "DINING", 
                 "orderItems": {
-                    "Beef and Broccoli": 20.97, 
-                    "Happy Meal, Large Fries, Pepsi": 15.0, 
-                    "Waffle Fries": 7.98, 
-                    "Chicken Wings": 6.99, 
-                    "Orange Chicken": 6.99, 
-                    "Burger": 5.99, 
-                    "French Fries": 5.98, 
-                    "Chilidog": 4.99, 
-                    "Chicken Sandwich": 4.99, 
-                    "Double Cheeseburger, Snack Wrap, Pepsi": 4.0, 
-                    "Mashed Potatos": 2.99, 
-                    "Pepsi": 1.99
+                    "Beef and Broccoli": "20.97", 
+                    "Happy Meal, Large Fries, Pepsi": "15.0", 
+                    "Waffle Fries": "7.98", 
+                    "Chicken Wings": "6.99", 
+                    "Orange Chicken": "6.99", 
+                    "French Fries": "5.98", 
+                    "Chilidog": "4.99", 
+                    "Chicken Sandwich": "4.99", 
+                    "Double Cheeseburger, Snack Wrap, Pepsi": "4.0", 
+                    "Mashed Potatos": "2.99", 
+                    "Pepsi": "1.99"
                 }
             }, 
             {
                 "category": "RENT", 
                 "orderItems": {
-                    "Rent": 1100.0
+                    "Rent": "1100.0"
                 }
             }, 
             {
                 "category": "ELECTRONIC", 
                 "orderItems": {
-                    "Nintendo Switch": 249.99, 
-                    "AirPods": 129.99, 
-                    "Kindle Fire": 29.99, 
-                    "iPhone Chargers": 19.99
+                    "Nintendo Switch": "249.99", 
+                    "AirPods": "129.99", 
+                    "Kindle Fire": "29.99", 
+                    "iPhone Chargers": "19.99"
                 }
             }
         ], 
         "vendors": [
             {
                 "vendor": "Walmart", 
-                "nBills": 1
+                "nBills": "1"
             }, 
             {
                 "vendor": "Richmond Gas Works", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "Dominion", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "City Dogs", 
-                "nBills": 1
+                "nBills": "1"
             }, 
             {
                 "vendor": "Amazon", 
-                "nBills": 3
-            }, 
-            {
-                "vendor": "Panda Express", 
-                "nBills": 2
-            }, 
-            {
-                "vendor": "Farm Fresh", 
-                "nBills": 2
-            }, 
-            {
-                "vendor": "Richmond Water", 
-                "nBills": 2
-            }, 
-            {
-                "vendor": "KFC", 
-                "nBills": 2
-            }, 
-            {
-                "vendor": "Best Buy", 
-                "nBills": 1
+                "nBills": "3"
             }, 
             {
                 "vendor": "Chick-Fil-A", 
-                "nBills": 2
+                "nBills": "1"
+            }, 
+            {
+                "vendor": "Farm Fresh", 
+                "nBills": "2"
+            }, 
+            {
+                "vendor": "Richmond Water", 
+                "nBills": "2"
+            }, 
+            {
+                "vendor": "KFC", 
+                "nBills": "2"
+            }, 
+            {
+                "vendor": "Best Buy", 
+                "nBills": "1"
+            }, 
+            {
+                "vendor": "Panda Express", 
+                "nBills": "2"
             }, 
             {
                 "vendor": "Regal Theatre", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "McDonalds", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "CVS Pharmarcy", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "Rent", 
-                "nBills": 2
+                "nBills": "2"
             }, 
             {
                 "vendor": "Comcast", 
-                "nBills": 2
+                "nBills": "2"
             }
         ], 
         "dates": [
             {
-                "cost": 0, 
+                "cost": "0", 
                 "day": "Monday"
             }, 
             {
-                "cost": 16.97, 
+                "cost": "16.97", 
                 "day": "Tuesday"
             }, 
             {
-                "cost": 15.0, 
+                "cost": "15.0", 
                 "day": "Wednesday"
             }, 
             {
-                "cost": 0, 
+                "cost": "0", 
                 "day": "Thursday"
             }, 
             {
-                "cost": 9.98, 
+                "cost": "9.98", 
                 "day": "Friday"
             }, 
             {
-                "cost": 20.96, 
+                "cost": "20.96", 
                 "day": "Saturday"
             }, 
             {
-                "cost": 25.950000000000003, 
+                "cost": "19.96", 
                 "day": "Sunday"
             }
         ], 
         "categories": [
             {
-                "cost": 106.79000000000002, 
+                "cost": "106.79", 
                 "vendor": "GROCERY"
             }, 
             {
-                "cost": 31.38, 
+                "cost": "31.38", 
                 "vendor": "ENTERTAINMENT"
             }, 
             {
-                "cost": 142.6, 
+                "cost": "142.6", 
                 "vendor": "UTILITIES"
             }, 
             {
-                "cost": 88.86000000000001, 
+                "cost": "82.87", 
                 "vendor": "DINING"
             }, 
             {
-                "cost": 1100.0, 
+                "cost": "1100.0", 
                 "vendor": "RENT"
             }, 
             {
-                "cost": 429.96000000000004, 
+                "cost": "429.96", 
                 "vendor": "ELECTRONIC"
             }
         ], 
         "subscriptions": {
             "monthly": [
                 {
-                    "cost": 10, 
+                    "cost": "10", 
                     "service": "Netflix"
                 }, 
                 {
-                    "cost": 5, 
+                    "cost": "5", 
                     "service": "Hulu"
                 }, 
                 {
-                    "cost": 5, 
+                    "cost": "5", 
                     "service": "Apple Music"
                 }
             ], 
             "yearly": [
                 {
-                    "cost": 50, 
+                    "cost": "50", 
                     "service": "Xbox Live Gold Membership"
                 }
             ]
