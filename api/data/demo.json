@@ -1,51 +1,46 @@
 [
     {
-        "date": "05/16/2019", 
+        "date": "06/23/2019", 
         "items": [
             {
-                "item": "John Wick 3 IMAX ", 
-                "cost": 21.38, 
+                "item": "Burger", 
+                "cost": 5.99, 
                 "quantity": 1
             }
         ], 
-        "totalCost": 21.38, 
-        "vendor": "Demo 1", 
-        "time": "20:03"
+        "totalCost": 5.99, 
+        "vendor": "Chick-Fil-A", 
+        "time": "01:12"
     }, 
     {
-        "date": "05/17/2019", 
+        "date": "06/25/2019", 
         "items": [
             {
-                "item": "Fried Potato", 
+                "item": "Coke", 
                 "cost": 2.99, 
+                "quantity": 1
+            }
+        ], 
+        "totalCost": 2.99, 
+        "vendor": "McDonalds", 
+        "time": "13:18"
+    }, 
+    {
+        "date": "06/26/2019", 
+        "items": [
+            {
+                "item": "Chips", 
+                "cost": 10.0, 
                 "quantity": 1
             }, 
             {
-                "item": "Chicken Wings", 
-                "cost": 6.99, 
-                "quantity": 1
+                "item": "Cookies", 
+                "cost": 5.0, 
+                "quantity": 2
             }
         ], 
-        "totalCost": 9.98, 
-        "vendor": "Demo 2", 
-        "time": "12:33"
-    }, 
-    {
-        "date": "05/18/2019", 
-        "items": [
-            {
-                "item": "Small Hotdog", 
-                "cost": 2.99, 
-                "quantity": 1
-            }, 
-            {
-                "item": "Pepsi", 
-                "cost": 1.99, 
-                "quantity": 1
-            }
-        ], 
-        "totalCost": 4.98, 
-        "vendor": "Demo 3", 
-        "time": "15:43"
+        "totalCost": 20.0, 
+        "vendor": "Walmart", 
+        "time": "16:40"
     }
 ]

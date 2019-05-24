@@ -4,64 +4,134 @@
             {
                 "category": "GROCERY", 
                 "orderItems": {
-                    "Eye Care": 7.82, 
-                    "Ear Care": 5.67
+                    "Oranges": 18.75, 
+                    "Chips": 14.950000000000001, 
+                    "Bananas": 11.200000000000001, 
+                    "Salsa": 9.99, 
+                    "Shampoo": 7.99, 
+                    "Bread": 7.98, 
+                    "Contact Lens Solution": 7.82, 
+                    "Pears": 6.0, 
+                    "Q-Tips": 5.67, 
+                    "Facewash": 4.99, 
+                    "Twix": 4.95, 
+                    "Apples": 4.5, 
+                    "Instant Ramen": 2.0
                 }
             }, 
             {
                 "category": "ENTERTAINMENT", 
                 "orderItems": {
-                    "John Wick 3 IMAX ": 21.38
+                    "John Wick 3 IMAX ": 21.38, 
+                    "Avengers Endgame": 10.0
                 }
             }, 
             {
                 "category": "UTILITIES", 
-                "orderItems": {}
+                "orderItems": {
+                    "Water": 43.16, 
+                    "Internet": 39.98, 
+                    "Power": 31.759999999999998, 
+                    "Gas": 27.700000000000003
+                }
             }, 
             {
                 "category": "DINING", 
                 "orderItems": {
-                    "Fried Potato": 8.97, 
-                    "Chicken Wings": 6.99
+                    "Beef and Broccoli": 20.97, 
+                    "Happy Meal, Large Fries, Pepsi": 15.0, 
+                    "Waffle Fries": 7.98, 
+                    "Chicken Wings": 6.99, 
+                    "Orange Chicken": 6.99, 
+                    "Burger": 5.99, 
+                    "French Fries": 5.98, 
+                    "Chilidog": 4.99, 
+                    "Chicken Sandwich": 4.99, 
+                    "Double Cheeseburger, Snack Wrap, Pepsi": 4.0, 
+                    "Mashed Potatos": 2.99, 
+                    "Pepsi": 1.99
                 }
             }, 
             {
                 "category": "RENT", 
-                "orderItems": {}
+                "orderItems": {
+                    "Rent": 1100.0
+                }
             }, 
             {
                 "category": "ELECTRONIC", 
-                "orderItems": {}
+                "orderItems": {
+                    "Nintendo Switch": 249.99, 
+                    "AirPods": 129.99, 
+                    "Kindle Fire": 29.99, 
+                    "iPhone Chargers": 19.99
+                }
             }
         ], 
         "vendors": [
             {
-                "vendor": "Cafe HotDogs", 
+                "vendor": "Walmart", 
                 "nBills": 1
             }, 
             {
-                "vendor": "Mac Donalds", 
+                "vendor": "Richmond Gas Works", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Dominion", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "City Dogs", 
                 "nBills": 1
             }, 
             {
-                "vendor": "Amazon Store", 
-                "nBills": 1
+                "vendor": "Amazon", 
+                "nBills": 3
+            }, 
+            {
+                "vendor": "Panda Express", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Farm Fresh", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Richmond Water", 
+                "nBills": 2
             }, 
             {
                 "vendor": "KFC", 
                 "nBills": 2
             }, 
             {
-                "vendor": "Regal Theatre", 
+                "vendor": "Best Buy", 
                 "nBills": 1
+            }, 
+            {
+                "vendor": "Chick-Fil-A", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Regal Theatre", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "McDonalds", 
+                "nBills": 2
             }, 
             {
                 "vendor": "CVS Pharmarcy", 
-                "nBills": 1
+                "nBills": 2
             }, 
             {
-                "vendor": "Giant Market", 
-                "nBills": 1
+                "vendor": "Rent", 
+                "nBills": 2
+            }, 
+            {
+                "vendor": "Comcast", 
+                "nBills": 2
             }
         ], 
         "dates": [
@@ -70,11 +140,11 @@
                 "day": "Monday"
             }, 
             {
-                "cost": 0, 
+                "cost": 16.97, 
                 "day": "Tuesday"
             }, 
             {
-                "cost": 0, 
+                "cost": 15.0, 
                 "day": "Wednesday"
             }, 
             {
@@ -86,37 +156,37 @@
                 "day": "Friday"
             }, 
             {
-                "cost": 0, 
+                "cost": 20.96, 
                 "day": "Saturday"
             }, 
             {
-                "cost": 5.98, 
+                "cost": 25.950000000000003, 
                 "day": "Sunday"
             }
         ], 
         "categories": [
             {
-                "cost": 13.49, 
+                "cost": 106.79000000000002, 
                 "vendor": "GROCERY"
             }, 
             {
-                "cost": 21.38, 
+                "cost": 31.38, 
                 "vendor": "ENTERTAINMENT"
             }, 
             {
-                "cost": 0, 
+                "cost": 142.6, 
                 "vendor": "UTILITIES"
             }, 
             {
-                "cost": 15.96, 
+                "cost": 88.86000000000001, 
                 "vendor": "DINING"
             }, 
             {
-                "cost": 0, 
+                "cost": 1100.0, 
                 "vendor": "RENT"
             }, 
             {
-                "cost": 0, 
+                "cost": 429.96000000000004, 
                 "vendor": "ELECTRONIC"
             }
         ], 

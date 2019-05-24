@@ -2,6 +2,7 @@ import json
 from flask import Flask, Response, abort
 from .utils import JSON_MIME_TYPE, search_book
 from insight import make_insight_json
+from generate import makeData, makeDemo
 count = 0
 
 app = Flask(__name__)
@@ -9,6 +10,22 @@ app = Flask(__name__)
 img_resp = {
     "words": "LOL"
 }
+
+@app.route('/init')
+def init():
+    aList = makeData()
+    
+    with open('api/data/history.json', 'w') as json_file:
+        json.dump(aList,json_file, indent= 4)
+
+    return 'Init OK'
+
+@app.route('/demo')
+def demo():
+    aList = makeDemo()
+    with open('api/data/demo.json', 'w') as json_file:
+        json.dump(aList,json_file, indent= 4)
+    return 'Demo OK'
 
 @app.route('/api/img')
 def img_upload():
@@ -22,7 +39,7 @@ def img_upload():
     
     history_json.insert(0, demo_json[count])
     
-    with open('history.json', 'w') as fb:
+    with open('api/data/history.json', 'w') as fb:
         json.dump(history_json, fb, indent= 4)
     
     response = Response(
@@ -48,7 +65,7 @@ def history():
 def insights():
     with open('api/data/insights.json', 'w') as json_file:  
         insights_resp = make_insight_json('api/data/history.json')
-        json.dump(make_insight_json('api/data/history.json'), json_file, indent= 4)
+        json.dump(insights_resp, json_file, indent= 4)
          
     response = Response(
         json.dumps(insights_resp), status=200, mimetype=JSON_MIME_TYPE)
