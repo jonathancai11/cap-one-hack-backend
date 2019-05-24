@@ -1,8 +1,8 @@
 import json
 from flask import Flask, Response, abort
 from .utils import JSON_MIME_TYPE, search_book
-from insight import make_insight_json
-from generate import makeData, makeDemo
+from .insight import make_insight_json
+from .generate import makeData, makeDemo
 count = 0
 
 app = Flask(__name__)
